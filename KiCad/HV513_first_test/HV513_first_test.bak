@@ -1,0 +1,168 @@
+EESchema Schematic File Version 4
+LIBS:HV513_first_test-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0101
+U 1 1 5CE67FB6
+P 5000 1650
+F 0 "#PWR0101" H 5000 1400 50  0001 C CNN
+F 1 "GND" V 5005 1522 50  0000 R CNN
+F 2 "" H 5000 1650 50  0001 C CNN
+F 3 "" H 5000 1650 50  0001 C CNN
+	1    5000 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CE6D5E0
+P 5000 1550
+F 0 "#PWR0102" H 5000 1300 50  0001 C CNN
+F 1 "GND" V 5005 1422 50  0000 R CNN
+F 2 "" H 5000 1550 50  0001 C CNN
+F 3 "" H 5000 1550 50  0001 C CNN
+	1    5000 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:HT #PWR0103
+U 1 1 5CE67A12
+P 5000 2550
+F 0 "#PWR0103" H 5000 2670 50  0001 C CNN
+F 1 "HT" H 5020 2693 50  0000 C CNN
+F 2 "" H 5000 2550 50  0001 C CNN
+F 3 "" H 5000 2550 50  0001 C CNN
+	1    5000 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L HV513:HV513 HV5131
+U 1 1 5CE6689D
+P 4350 1450
+F 0 "HV5131" H 4550 1575 50  0000 C CNN
+F 1 "HV513" H 4550 1484 50  0000 C CNN
+F 2 "Mount_HV513:Female_Pin_Mount" H 4500 1500 50  0001 C CNN
+F 3 "" H 4500 1500 50  0001 C CNN
+	1    4350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:HT #PWR0104
+U 1 1 5CE6F380
+P 5000 2650
+F 0 "#PWR0104" H 5000 2770 50  0001 C CNN
+F 1 "HT" H 5020 2793 50  0000 C CNN
+F 2 "" H 5000 2650 50  0001 C CNN
+F 3 "" H 5000 2650 50  0001 C CNN
+	1    5000 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J1
+U 1 1 5CE6F240
+P 3650 2150
+F 0 "J1" H 3542 1325 50  0000 C CNN
+F 1 "Conn_01x12_Female" H 3542 1416 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 3650 2150 50  0001 C CNN
+F 3 "~" H 3650 2150 50  0001 C CNN
+	1    3650 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3850 1650 4100 1650
+Wire Wire Line
+	3850 1750 4100 1750
+Wire Wire Line
+	4100 1850 3850 1850
+Wire Wire Line
+	3850 1950 4100 1950
+Wire Wire Line
+	4100 2050 3850 2050
+Wire Wire Line
+	3850 2150 4100 2150
+Wire Wire Line
+	4100 2250 3850 2250
+Wire Wire Line
+	3850 2350 4100 2350
+Wire Wire Line
+	4100 2450 3850 2450
+Wire Wire Line
+	3850 2550 4100 2550
+$Comp
+L fluxel_pad:Fluxel_pad_2x4 Fl_2x41
+U 1 1 5CE79427
+P 5550 2100
+F 0 "Fl_2x41" H 5778 2146 50  0000 L CNN
+F 1 "Fluxel_pad_2x4" H 5778 2055 50  0000 L CNN
+F 2 "Fluxel_Pad:Fluxel_matrix_2x8" H 5600 1850 50  0001 C CNN
+F 3 "" H 5600 1850 50  0001 C CNN
+	1    5550 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2050 5700 1900
+Wire Wire Line
+	5600 1950 5600 1900
+Wire Wire Line
+	5000 1850 5500 1850
+Wire Wire Line
+	5500 1850 5500 1900
+Wire Wire Line
+	5000 1750 5400 1750
+Wire Wire Line
+	5400 1750 5400 1900
+Wire Wire Line
+	5700 2150 5700 2300
+Wire Wire Line
+	5600 2250 5600 2300
+Wire Wire Line
+	5000 2350 5500 2350
+Wire Wire Line
+	5500 2350 5500 2300
+Wire Wire Line
+	5000 2450 5400 2450
+Wire Wire Line
+	5400 2450 5400 2300
+Wire Wire Line
+	5000 2050 5700 2050
+Wire Wire Line
+	5000 1950 5600 1950
+Wire Wire Line
+	5000 2150 5700 2150
+Wire Wire Line
+	5000 2250 5600 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5CE7DB7C
+P 3850 1550
+F 0 "#PWR?" H 3850 1300 50  0001 C CNN
+F 1 "GND" V 3855 1422 50  0000 R CNN
+F 2 "" H 3850 1550 50  0001 C CNN
+F 3 "" H 3850 1550 50  0001 C CNN
+	1    3850 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:HT #PWR?
+U 1 1 5CE7E90C
+P 3850 2650
+F 0 "#PWR?" H 3850 2770 50  0001 C CNN
+F 1 "HT" H 3870 2793 50  0000 C CNN
+F 2 "" H 3850 2650 50  0001 C CNN
+F 3 "" H 3850 2650 50  0001 C CNN
+	1    3850 2650
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

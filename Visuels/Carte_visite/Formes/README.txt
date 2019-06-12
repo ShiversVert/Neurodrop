@@ -1,0 +1,1 @@
+C:\Users\RomainBAILLY\AppData\Roaming\Adobe\Adobe Illustrator 23 Settings\fr_FR\x64
